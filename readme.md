@@ -29,12 +29,18 @@ This repository contains the code for a line-following robot implemented on an A
 - QTRSensors
     https://github.com/pololu/qtr-sensors-arduino
 
+### Schematics
+![Schematics](/Schematics/Line-follower-circuit-diagram.png)
 
 ### Usage:
 1. Ensure all hardware connections are properly set up.
 2. Upload the code to the Arduino board.
 3. The LED indicator will signal during calibration.
 4. The robot will then continuously follow the line based on sensor readings.
+
+### PID Line Follower Tuning
+Complete Guide on How to Tune PID Line Follower
+    http://robotresearchlab.com/2019/02/16/pid-line-follower-tuning/
 
 ### Note:
 - Fine-tune PID constants and other parameters based on specific requirements and environmental conditions.
