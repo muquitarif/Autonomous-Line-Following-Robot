@@ -93,7 +93,7 @@ void followLine(){
     int motorSpeed = Kp * error + Kd * (error - lastError);
     lastError = error;
 
-    Serial.ptint("Error: ");
+    Serial.print("Error: ");
     Serial.println(error);
 
     int rightMotorSpeed = BaseSpeed + motorSpeed;
